@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const Navigation = () => {
@@ -8,16 +8,13 @@ const Navigation = () => {
       <div className="App">
         <h1>React Router Mini</h1>
         <div>
-          <a> Home
-            <Link to="/"          
-          
-          </a>
+          <a > <Link to="/"></Link>  Home</a>    
         </div>
         <div>
-          <a href="">About</a>
+          <a> <Link to="/About"></Link>  About</a>
         </div>
         <div>
-          <a href="">Contact</a>
+          <a > <Link to="/Contact"></Link>   Contact</a>
         </div>
       </div>
     </div>
